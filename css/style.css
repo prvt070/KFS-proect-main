@@ -8,8 +8,46 @@
     border-radius: 50px;
 }
 
+header{
+    width: 100%;
+    position: absolute;
+}
+
+#navbar{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.ul1{
+    margin-top: 20px;
+}
+
 .ul1 .li1{
     width: 200px;
     display: inline;
     background-color: red;
+    padding: 8px 40px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.ul1 .li1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.li1 img{
+    margin-top: -5px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.sec1{
+    margin-top: 35px;
+}
+
+.sec1 img{
+    border-radius: 50px;
 }
