@@ -94,19 +94,64 @@
                                         <div class="col-6">
                                             <img src="./img/burger.jpg" alt="" width="400">
                                             <br>
-                                            <p class="text-center-50 fs-5">Xantalli sous, ketchup, original panirovkada tovuq
+                                            <p class="text-center-50 fs-5">Xantalli sous, ketchup, original panirovkada
+                                                tovuq
                                                 go‘shti, piyoz, chedder pishlog‘i, bodring va pomidor tilimchalari,
                                                 salat bargi, jo‘xori talqoni sepilgan bulochka</p>
-                                                <br>
-                                                <p class="text-danger fs-6"><i class="fa-solid fa-wheat-awn"></i> To'yimli & Allergenlar</p>
+                                            <br>
+                                            <p class="text-danger fs-6"><i class="fa-solid fa-wheat-awn"></i> To'yimli &
+                                                Allergenlar</p>
                                         </div>
-                                        <div class="col-6"></div>
+                                        <div class="col-6">
+                                            <h2>Izoh</h2>
+                                            <textarea name="" id="" class="w-75"></textarea>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Show a second modal and hide this one with the button below.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-primary"
+                                                        data-bs-target="#exampleModalToggle2"
+                                                        data-bs-toggle="modal">Open second modal</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Hide this modal and show the first with the button below.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                                        data-bs-toggle="modal">Back to first</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal">Open first modal</button>
                                 </div>
                             </div>
                         </div>
