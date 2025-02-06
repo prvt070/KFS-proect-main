@@ -86,3 +86,7 @@ header{
     border: 0px solid grey;
     color: red;
 }
+
+textarea{
+    width: 80%;
+}
