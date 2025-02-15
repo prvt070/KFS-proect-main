@@ -1,28 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.select1 option{
+.select1 option {
     border-radius: 50px;
 }
 
-header{
+header {
     width: 100%;
     position: absolute;
+    z-index: 2;
+    background: #fff;
+    top: 0;
 }
 
-#navbar{
+#navbar {
     margin-top: 20px;
     padding-bottom: 10px;
 }
 
-.ul1{
+.ul1 {
     margin-top: 20px;
 }
 
-.ul1 .li1{
+.ul1 .li1 {
     width: 200px;
     display: inline;
     background-color: red;
@@ -31,54 +34,59 @@ header{
     font-size: 13px;
 }
 
-.ul1 .li1 a{
+.ul1 .li1 a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.li1 img{
+.li1 img {
     margin-top: -5px;
     margin-right: 5px;
     border-radius: 50px;
 }
 
-.sec1{
+.sec1 {
     margin-top: 35px;
 }
 
-.sec1 img{
+.sec1 .carousel {
+    position: relative;
+    z-index: 1;
+}
+
+.sec1 img {
     border-radius: 50px;
 }
 
 /* section 2 */
 
-.sec2 .btn1{
+.sec2 .btn1 {
     text-align: center;
 }
 
-.sec2 .btn1 button{
+.sec2 .btn1 button {
     border-radius: 50px;
     padding: 13px;
 }
 
-.sec2 .col-3{
+.sec2 .col-3 {
     width: 24%;
     margin-right: 5px;
     border-radius: 25px;
-    box-shadow: 0px 0px 20px -8px rgba(128,128,128,0.75);
+    box-shadow: 0px 0px 20px -8px rgba(128, 128, 128, 0.75);
 }
 
-.sec2 .col-3 img{
+.sec2 .col-3 img {
     border-radius: 50px;
 }
 
-.sec2 .col-3 p{
+.sec2 .col-3 p {
     color: grey;
     font-size: 12px;
 }
 
-.btn2{
+.btn2 {
     width: 80px;
     border-radius: 50px;
     padding: 5px;
@@ -87,6 +95,32 @@ header{
     color: red;
 }
 
-textarea{
+textarea {
     width: 80%;
+}
+
+header {
+    position: fixed;
+}
+
+.img1 {
+    background-image: url(../img/4274.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.img2 {
+    background-image: url(../img/4308.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 10px;
+    border-radius: 50px;
 }
