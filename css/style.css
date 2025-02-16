@@ -124,3 +124,15 @@ header {
     margin: 10px;
     border-radius: 50px;
 }
+
+.sidebar{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 20%;
+    margin-bottom: 0px;
+}
+
+.sidebar .div_1{
+    border-bottom: 1px solid grey;
+}
