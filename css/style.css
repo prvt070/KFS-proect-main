@@ -133,6 +133,13 @@ header {
     margin-bottom: 0px;
 }
 
+.sidebar2{
+    position: fixed;
+    height: 80%;
+    margin-bottom: 0px;
+}
+
 .sidebar .div_1{
     border-bottom: 1px solid grey;
 }
+
